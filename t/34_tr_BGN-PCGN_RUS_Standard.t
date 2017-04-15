@@ -35,7 +35,6 @@ my $context     =   "акце́нт, Елисеев, Алетейя, Мейер,
                     "9-е мая, фойе, Фейербах, Чистые пруды, " .
                     "Достоевский, Толстой, Горкий, Аркадий, Белый, " .
                     "Юрий, Сергей, Хрущёв, Горбачёв";
-
 my $context_ok  =   "aktsent, Yeliseyev, Aleteyya, Meyyer, Kayafa, " .
                     "Yadav, yeyë; Yeyë, pod''yëm, Yen, yen, dodekaedr, " .
                     "yeshchë, ch'yë, inter''yektsionnyy, vyudit', Mayya, " .

@@ -1,9 +1,11 @@
 
   ===========================================================================
+
     BGN/PCGN Romanization System for Russian
     for Lingua::Translit Perl Module
 
     Copyright 2017 Nikola D. Lečić <nikola.lecic@anthesphoria.net>
+
   ===========================================================================
 
   This implementation of BGN/PCGN romanization system comes in two

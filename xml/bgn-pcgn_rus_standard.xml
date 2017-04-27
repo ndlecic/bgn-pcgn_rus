@@ -48,8 +48,8 @@
       BGN/PCGN system as 'simplified', (cf., e.g., Understanding
       Russianness. Ed. by Alapuro R. et al. Routledge: London, 2012,
       p. xiv), it is, in out opinion, more desirable to designate it as
-      'Standard', since it follows the original BGN/PCGN rules. The 
-      designation 'simplified' should be reserved for numerous 
+      'Standard', since it follows the original BGN/PCGN rules. The
+      designation 'simplified' should be reserved for numerous
       modifications of BGN/PCGN system, which simplify it in one way or
       another (e.g. Oxford Style Manual, Wikipedia, etc.).
   ===========================================================================
@@ -139,7 +139,7 @@
             <to>E</to>
         </rule>
 
-		<!--
+        <!--
              E -> YË
                initially
                after the vowel characters А, Е, Ё, И, О, У, Ы, Э, Ю, Я
@@ -155,7 +155,7 @@
                 <after>[АЕЁИОУЫЭЮЯЙЬЪАеёиоуыэюяйьъe]</after>
             </context>
         </rule>
-		
+
         <rule>
             <from>Ё</from>
             <to>Yë</to>
@@ -163,7 +163,7 @@
                 <after>\b</after>
             </context>
         </rule>
-		
+
         <!--
             Then, we proceed to characters whose context doesn't depend
             on other characters.
@@ -375,7 +375,7 @@
             <to>e</to>
         </rule>
 
-		<!--
+        <!--
              e -> yë
                initially
                after the vowels characters а, е, ё, и, о, у, ы, э, ю, я
@@ -388,7 +388,7 @@
             <to>yë</to>
             <context>
                 <!-- capitals and 'е' are already transliterated, so we can
-                     expect 'Ya', 'Yu', 'Ye', 'Yë', 'ye', apostrophes, 
+                     expect 'Ya', 'Yu', 'Ye', 'Yë', 'ye', apostrophes,
                      and 'Y' -->
                 <after>[AEËIOUYeëau'аеёиоуыэюяйьъ]</after>
             </context>
@@ -401,7 +401,7 @@
                 <after>\b</after>
             </context>
         </rule>
-		
+
         <rule>
             <from>ё</from>
             <to>ë</to>

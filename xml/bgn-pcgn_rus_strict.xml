@@ -129,7 +129,7 @@
             <to>E</to>
         </rule>
 
-		<!--
+        <!--
              E -> YË
                initially
                after the vowel characters А, Е, Ё, И, О, У, Ы, Э, Ю, Я
@@ -145,7 +145,7 @@
                 <after>[АЕЁИОУЫЭЮЯЙЬЪАеёиоуыэюяйьъe]</after>
             </context>
         </rule>
-		
+
         <rule>
             <from>Ё</from>
             <to>Yë</to>
@@ -153,13 +153,13 @@
                 <after>\b</after>
             </context>
         </rule>
-		
+
         <rule>
             <from>Ё</from>
             <to>Ë</to>
         </rule>
 
-		<!--
+        <!--
              Й -> Y·
                before А, У, Ы, Э
                  (these cases are called "unusual Russian character
@@ -180,13 +180,13 @@
                 <before>[АУЫЭауыэ]</before>
             </context>
         </rule>
-		
+
         <rule>
             <from>Й</from>
             <to>Y</to>
         </rule>
 
-		<!--
+        <!--
              Ы -> Y·
                before А, У, Ы, Э
              Ы -> ·Y
@@ -204,7 +204,7 @@
                 <before>[АУЫЭауыэ]</before>
             </context>
         </rule>
-		
+
         <rule>
             <from>Ы</from>
             <to>·Y</to>
@@ -214,13 +214,13 @@
                 <after>[АЕЁИОУЫЭЮЯЙаеёиоуыэюяйeëY]</after>
             </context>
         </rule>
-	
+
         <rule>
             <from>Ы</from>
             <to>Y</to>
         </rule>
 
-		<!--
+        <!--
              Э -> ·E
                after any consonant character except Й
                  (these cases are called "unusual Russian character
@@ -477,7 +477,7 @@
             <to>ye</to>
             <context>
                 <!-- capitals are already transliterated, so we can expect
-                     'Ya', 'Yu', 'Ye', 'Yë' and apostrophes; some Й and Ы 
+                     'Ya', 'Yu', 'Ye', 'Yë' and apostrophes; some Й and Ы
                      are converted to 'Y·', thus we have to include an
                      interpunct character in this context -->
                 <after>[AEËIOUYeëau'аеёиоуыэюяйьъ·]</after>
@@ -497,7 +497,7 @@
             <to>e</to>
         </rule>
 
-		<!--
+        <!--
              e -> yë
                initially
                after the vowels characters а, е, ё, и, о, у, ы, э, ю, я
@@ -524,13 +524,13 @@
                 <after>\b</after>
             </context>
         </rule>
-		
+
         <rule>
             <from>ё</from>
             <to>ë</to>
         </rule>
 
-		<!--
+        <!--
              й -> y·
                before а, у, ы, э
                  (these cases are called "unusual Russian character
@@ -551,13 +551,13 @@
                 <before>[AUYEауыэ]</before>
             </context>
         </rule>
-		
+
         <rule>
             <from>й</from>
             <to>y</to>
         </rule>
 
-		<!--
+        <!--
              ы -> y·
                before а, у, ы, э
              ы -> ·y
@@ -578,7 +578,7 @@
                 <before>[AUYE·ауыэ]</before>
             </context>
         </rule>
-		
+
         <rule>
             <from>ы</from>
             <to>·y</to>
@@ -593,13 +593,13 @@
                 <after>[AEËIOUYaueëyаеёиоуыэюя]</after>
             </context>
         </rule>
-	
+
         <rule>
             <from>ы</from>
             <to>y</to>
         </rule>
 
-		<!--
+        <!--
              э -> ·e
                after any consonant character except й
                  (these cases are called "unusual Russian character
